@@ -1,0 +1,292 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        What is Python ?
+            Python is a computer programming language, often used to built websites and software, automate tasks, and conduct data analysis.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Built-in Data Types
+
+
+    In programming, data type is an important concept.
+
+    Variables can store data of different types, and different types can do different things.
+
+    Python has the following data types built-in by default, in these categories:
+
+    Text Type:	str
+    Numeric Types:	int, float, complex
+    Sequence Types:	list, tuple, range
+    Mapping Type:	dict
+    Set Types:	set, frozenset
+    Boolean Type:	bool
+    Binary Types:	bytes, bytearray, memoryview
+    None Type:	NoneType
+    
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+        Space is treated as a character.
+
+        example
+              space = " "
+              print(space)
+              #will print empty space
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        INDEX
+            Index is indication of a character from a list that we can point to, tuple.
+            Indexing in Python is a way to refer the individual items within an iterable by its position.
+            In other words, you can directly access your elements of choice within an iterable and do various operations depending on your needs.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        to find out a data type ,,TYPE
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        PRINT STATEMENT
+            Python built in function that prints anything to the console, even without asigned to a variable.
+            Printing is the result of our programming code output to the console.
+            The print() function is used to output text, numbers, or other printable information to the console.
+            It takes one or more arguments and will output each of the arguments to the console separated by a space.
+            If no arguments are provided, the print() function will output a blank line.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        COMMENTS
+
+            A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
+            The # character is used to start a comment and it continues until the end of the line.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        VARIABLES
+            A Python variable is a symbolic name that is a reference or pointer to an object.
+            Once an object is assigned to a variable, you can refer to the object by that name.
+                A variable is used to store data that will be used by the program. This data can be a number, a string, a Boolean, a list or some other data type.
+                Every variable has a name which can consist of letters, numbers, and the underscore character _.
+                The equal sign = is used to assign a value to a variable.
+                After the initial assignment is made, the value of a variable can be updated to new values as needed.
+
+        # These are all valid variable names and assignment
+
+            user_name = "codey"
+            user_id = 100
+            verified = False
+
+        # A variable's value can be changed after assignment
+
+            points = 100
+            points = 120
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        DATA TYPES.
+            string, numeric, boolean, lists, tuple, dictionary.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        STRING
+
+            any time we put " " it becomes a string
+
+            A sequence of characters, ( letters and numbers, whytespace or punctuation) enclosed by quotation marks.
+            String can not hold multiple values.
+        example
+            user = "User Full Name"
+            longer = "This string is broken up \
+                      over multiple lines"
+
+        STRING CONCATINATION
+            Joining of strings toghether using + operator.
+            The + operator is also used for mathematical addition.
+            CONCATINATION is combining values into ONE and printing into your output, or linking. String to stirng only.
+
+
+        example
+            first = " Hello "
+            second = "World"
+
+            result = first + second
+            long_result = first + second + "!"
+
+        example
+              name = "Naseem"
+              print("The users name is: " + name)    # string plus string
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        NUMERIC
+            Numeric data types are numbers stored in database columns.
+            These data types are typically grouped by: Exact numeric types, values where the precision and scale need to be preserved.
+            The exact numeric types are INTEGER , BIGINT , DECIMAL , NUMERIC , NUMBER , and MONEY .
+
+                Arithmetic Operations
+
+        Python supports different types of arithmetic operations that can be performed on literal numbers,
+        variables, or some combination. The primary arithmetic operators are:
+
+            + for addition
+            - for subtraction
+            * for multiplication
+            / for division
+            // In Python, you use the double slash // operator to perform floor division.
+               This // operator divides the first number by the second number and rounds the result down to the nearest integer (or whole number).
+            % for modulus (returns the remainder)
+            ** for exponentiation
+
+         example
+            result = 10 + 30
+            result = 40 - 10
+            result = 50 * 5
+            result = 16 / 4
+            result = 25 % 2
+            result = 5 ** 3
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        INTEGERS
+
+           ## Numeric data type that represents a whole number without any decimal points.
+
+
+            An integer is a number that can be written without a fractional part (no decimal).
+            An integer can be a positive number, a negative number or the number 0 so long as there is no decimal portion.
+            The number 0 represents an integer value but the same number written as 0.0 would represent a FLOATING point number.
+         # Integer can store lots of numbers
+         # Example integer numbers
+
+            chairs = 4
+            tables = 1
+            broken_chairs = -2
+            sofas = 0
+
+         # Non-integer numbers
+
+            lights = 2.5
+            left_overs = 0.0
+
+
+        FLOAT
+            What is a float in Python example?
+            The float type in Python represents the floating point number.
+            Float is used to represent real numbers and is written with a DECIMAL POINT dividing the integer and fractional parts.
+            For example, 97.98, 32.3+e18, -32.54e100 all are floating point numbers
+
+            # Floating point numbers
+
+            pi = 3.14159
+            meal_cost = 12.99
+            tip_percent = 0.20
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        BOOLEAN VALUES
+            Boolean refers to a value that is either true or false.
+            Booleans are a data type in Python, much like integers, floats, and strings. However, booleans only have two values:
+
+                True
+                False
+        example
+
+                is_true = True
+                is_false = False
+
+                print(type(is_true))
+                # will output: <class 'bool'>
+
+        class example -  from class material
+
+                num1 = 5
+                num2 = 6
+                print(num1 > num2)   # boolean example
+                print(num1 == num2)  # boolean example    ## checks for value equality
+                print(num1 != num2)
+
+                # Boolean == < > and != not equal
+
+                # we assign a value to a variable
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    SET
+                         with { }
+
+                    #set does not allow dublications
+                    #set,, is mutuable, is a data type that allows us to store complex objects.
+                    #the only thing is - SET eliminates dublicates.
+
+                        set1 = {1, 2, 2, 2, 3, 4, 5}
+                        print(set1)
+
+                    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                    LIST
+                        with [ ]
+
+
+                        list2 = [1,2, 2, 2, 3, 4, 5]
+                    class material example
+                         # the dif between TUPLE and LIST is because LIST is mutable, and TUPLE is not mutable.
+                         # in some cases we SHOULD not be able to change the initial data.
+
+                    example
+
+                        list1 = [1, 2, 3, 22, 4, "TojtechAcademy"]
+                        print(list1[5])
+
+                        list1.remove(22) # remove tool goes by the name from the list, if its ,, we write 22. or any other value
+                        print(list1)
+                        list1.remove("TojtechAcademy")
+                        print(list1)                       # will print the list without the "TojtechAcademy"
+
+                        list1.insert(2, 10)                # insert goes by the position nr in the list. it will be inserted after the nr we tell.
+                        print(list1)
+                        list1.insert(0,77)                 # number 0 is calculated as a starting number point on the list.
+
+                        list1.append("QA2 2022")           # append adds only a new value at the end of our list, always.
+                        print(list1)
+
+                    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                    TUPLE
+                            with ( )
+
+                        Tuple are immutable, they can not be changed or modified. only iteration
+                        Tuple allows dublications.
+                        Tuples are used to store multiple items in a single variable.
+                        Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+                        A tuple is a collection which is ordered and unchangeable.
+                        Tuple is a collection of values separated by comma and enclosed in parenthesis.
+                        Unlike lists, tuples are immutable. The immutability can be considered as the identifying feature of tuples.
+
+                    example
+
+                        tuple1 = (1, 2, 4.6, "string")
+                        print(tuple1[3])        # indexing will count from 0 as a starting point
+                        print(tuple1)           #tuple # tuple are imutable, they can not be changed or modified. only iteration
+                        print(type(tuple1))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        DICTIONARY or dict
+
+        explaining what is dictionary -  create a variable = open the curly brackets,
+            your variable name can be anything.
+            data type to store multiple objects
+            dictionary has ,,key,, that will hold a particular value asigned to it.
+
+        example
+            dictionary =  {"firstname": "Naseem", "Lastname": "Khalimov", 1: 6}
+            print(dictionary)
+
+            dictionary["firstname"] = "Naim"       # override data from dictionary for a string value
+            print(dictionary["firstname"])
+            dictionary[1] = 4                      # override data from dictionary for numeric value
+
+
+

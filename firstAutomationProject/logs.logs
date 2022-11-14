@@ -1,0 +1,9 @@
+2022-10-25 14:10:13,915 : INFO : test_logDemo : This is info statement
+2022-10-25 14:10:13,915 : ERROR : test_logDemo : balance is bellow the minimum requirement
+2022-10-25 14:10:13,924 : INFO : test_logDemo : This is info statement
+2022-10-25 14:10:13,924 : INFO : test_logDemo : This is info statement
+2022-10-25 14:10:13,924 : ERROR : test_logDemo : balance is bellow the minimum requirement
+2022-10-25 14:10:13,924 : ERROR : test_logDemo : balance is bellow the minimum requirement
+2022-10-25 20:41:30,149 : ERROR : test_logDemo : balance is bellow the minimum requirement
+2022-10-25 20:41:30,157 : ERROR : test_logDemo : balance is bellow the minimum requirement
+2022-10-25 20:41:30,157 : ERROR : test_logDemo : balance is bellow the minimum requirement

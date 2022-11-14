@@ -1,0 +1,103 @@
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------
+elif Statement
+--------------
+
+The Python elif statement allows for continued checks to be performed after an initial if statement.
+An elif statement differs from the else statement because another expression is provided to be checked, just as with the initial if statement.
+
+If the expression is True, the indented code following the elif is executed.
+If the expression evaluates to False, the code can continue to an optional else statement.
+Multiple elif statements can be used following an initial if to perform a series of checks. Once an elif expression evaluates to True, no further elif statements are executed.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------
+if Statement
+--------------
+The Python if statement is used to determine the execution of code based on the evaluation of a Boolean expression.
+
+If the if statement expression evaluates to True, then the indented code following the statement is executed.
+If the expression evaluates to False then the indented code following the if statement is
+skipped and the program executes the next line of code which is indented at the same level as the if statement.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------
+else Statement
+--------------
+
+The Python else statement provides alternate code to execute if the expression in an if statement evaluates to False.
+
+The indented code for the if statement is executed if the expression evaluates to True.
+The indented code immediately following the else is executed only if the expression evaluates to False.
+To mark the end of the else block, the code must be unindented to the same level as the starting if line.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+and Operator
+--------------
+The Python and operator performs a Boolean comparison between two Boolean values, variables, or expressions.
+If both sides of the operator evaluate to True then the and operator returns True.
+If either side (or both sides) evaluates to False, then the and operator returns False.
+A non-Boolean value (or variable that stores a value) will always evaluate to True when used with the and operator.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------
+or Operator
+--------------
+The Python or operator combines two Boolean expressions and evaluates to True if at least one of the expressions returns True.
+Otherwise, if both expressions are False, then the entire expression evaluates to False.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------
+Equal Operator ==
+-----------------
+
+The equal operator, ==, is used to compare two values, variables or expressions to determine if they are the same.
+
+If the values being compared are the same, the operator returns True, otherwise it returns False.
+
+The operator takes the data type into account when making the comparison, so a string value of "2" is not considered the same as a numeric value of 2.
+
+
+
+
+
+car_color = "red"
+
+if car_color == "blue"
+    print("You have a blue car")
+elif car_color == "black"
+    print("You have a black car")
+elif car_color == "red"
+    print("You have a red car")
+
+else
+    print("I am not sure")
+
+
