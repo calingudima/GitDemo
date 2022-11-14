@@ -18,7 +18,12 @@ for i in range(10):
     starmaker(10.144)
 
 
-
+print("abc changes")
+print("abc changes1")
+print("abc changes2")
+print("abc changes3")
+print("abc changes4")
+print("abc changes5")
 
 
 turtle.exitonclick()
