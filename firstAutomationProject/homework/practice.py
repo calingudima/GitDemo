@@ -25,6 +25,8 @@ print("abc changes3")
 print("abc changes4")
 print("abc changes5")
 
+print("abc changes6")
+print("abc changes7")
 
 turtle.exitonclick()
 
