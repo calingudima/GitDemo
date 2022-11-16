@@ -33,6 +33,8 @@ print("abc changes8")
 print("abc changes9")
 print("abc changes10")
 
+print("CD ")
+print("fjk")
 turtle.exitonclick()
 
 
